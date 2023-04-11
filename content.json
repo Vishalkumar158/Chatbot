@@ -1,0 +1,410 @@
+{
+    "intents" : [
+        {
+            "tag":"greeting",
+            "input":["hello","hi there","nice to meet you","hi","hey there","hey","hi there","hi, nice to meet you","hello there","anyone there ?","knock knock"],
+            "responses":[
+            "Hi there!",
+            "welcome aboard, how may I help you ?",
+            "ahoy!!",
+            "At your service my friend",
+            "Hello my friend, How can I help you ?",
+            "Hi, Glad you are here. How may I assist you ?"
+          ]
+        },
+
+        {
+            "tag":"goodbye",
+            "input":["Thank you","Thanks","Thanks for the info","bye","byr bro","adios","okay bye","goodbye","see you later","i will catch you later","i will catch up later","okay i will see you later","I will talk to you later","will text you later","bye bro, I'll talk to you later","Bye brother", "byeeeeeee"],
+            "responses":[
+            "Okay, Bye",
+            "Have a nice day",
+            "Adios Amigo",
+            "Goodbye",
+            "See you later",
+            "Nice conversation. bye",
+            "okay. Have a nice day",
+            "Take care",
+            "we'll meet soon",
+            "Yeah Sure, Will talk to you later",
+            "Okay , Take care",
+            "Hope I was able to help you."
+        ]
+        },
+
+        {
+            "tag":"howami",
+            "input":["how are you ?","I am fine , how are you ?","are you fine ?","how are things going on ?","everything going on okay ?","how's everything there ?","how's everything going on ?","is everything okay ?"],
+            "responses":[
+            "Yeah , am fine",
+            "Everything's going on well",
+            "Doing good.Thanks for asking",
+            "Things are Great",
+            "Yeah Fine, nothing much going on in my life",
+            "I am Great , so what's your question ?",
+            "Everything's great."
+        ]
+        },
+
+        {
+            "tag":"types_of_acc",
+            "input":["What are the types of bank account?", "Bank account types", "Classification of bank accounts"],
+            "responses":["Bank accounts are classified into the following main categories - Savings, Current, Salary, NRI, Recurring Deposits, and Fixed Deposits", "There are mainly the following type of accounts - Savings, Current, Salary, NRI, Recurring Deposits, and Fixed Deposits"]
+        },
+
+        {
+            "tag":"Savings_info",
+            "input":["What is a savings account?", "Tell me something about savings accounts", "Savings Account"],
+            "responses":["A Savings Account, by definition, allows you to deposit your money, safe with the bank, so you don't have to carry it around with you or hide it in that rusted old steel safe at home. Don't worry, you can withdraw these funds when you need them.",
+            "A Savings account is an account designed to assist people in saving money. Anyone in India with an Aadhaar card and a PAN card, both of which are required to open a bank account in India, can open a savings account."
+            ]
+        },
+
+        {
+            "tag":"open_savings",
+            "input":["How do I open a savings account?", "What is the process of opening a savings account?", "Steps to open a savings account"],
+            "responses":["To open a savings account, you just need your identification and address proofs, alongwith some recent passport sized photos, and PAN card(if available). If you plan on opening it online, you just need to visit the website of your bank and use the same stuff as mentioned before. The only difference, you do it on your sofa."]
+        },
+
+        {
+            "tag":"savings_technical",
+            "input":["Tell me more about savings account", "What are the details of a savings account", "What are the limit, balance and intrest of a savings account?"],
+            "responses":["Typically, a savings account does not have a limit or a minimum balance criteria. The intrest, however, depends on the bank, with a minimum of 3%"]
+        },
+
+        {
+            "tag":"services_saving",
+            "input":["What are the services provided with a Savings account?", "Savings account services", "Services with a savings account"],
+            "responses":["Banks these days offer a lot of services with a savings account, like mobile banking, SMS alerts, Locker, Pass Books, Debit Card, some free cheques in a financial year, Nomination facility, and Free Consolidated Account Statement."]
+        },
+
+        {
+            "tag":"Current_info",
+            "input":["What is a current account?", "Tell me something about current accounts", "Current Account"],
+            "responses":["Current accounts are typically used by businesses to transfer funds between different financial accounts on a regular basis. These accounts are best suited for daily commercial transactions by corporations and company owners.",
+            "A current account is an account meant for business. Unlike savings accounts that cater to individuals who want to save money, current accounts are mainly used to cater the needs of the businesses.",
+            "a current account is an account meant for business. Unlike savings accounts that cater to individuals who want to save money, current accounts are mainly used to service the needs of the businesses. Also, current accounts provide higher number of transactions limits on monthly cash deposit / withdrawal (within city or outside city) compared to savings account."
+            ]
+        },
+
+        {
+            "tag":"open_current",
+            "input":["How do I open a current account?", "What is the process of opening a current account?", "Steps to open a current account"],
+            "responses":["To facilitate your business, a current account is of many types, with each demanding its own set of documents. Some of the popular ones are : For Companies - You need a Certificate of incorporation, Memorandum & Articles of Association, A resolution from the Board of Directors and power of attorney granted to its managers, officers or employees to transact on its behalf, and An officially valid document in respect of managers, officers or employees holding an attorney to transact on its behalf; For Trusts - You need a  Certificate of registration, Trust Deed, An officially valid document in respect of the person holding a power of attorney to transact on its behalf; For Partnership Firms - You need a Registration certificate, Partnership deed, An officially valid document in respect of the person holding a power of attorney to transact on its behalf. In addition to these, you also need the identity and address proofs of all the beneficial owners."]
+        },
+
+        {
+            "tag":"Current_technical",
+            "input":["Tell me more about current account", "What are the details of a current account", "What are the limit, balance and intrest of a Current account?", "Services with a current account", "Current Account services"],
+            "responses":["Different banks provide with different schemes for current accounts, each depending on the fulfillment of certain specifications. However, the general are : Zero Intrest Rate; Mobile banking; Free Transfer of account from one branch to another; More transactions in terms of Cheques issuance, Deposits, Withdrawals, and DD Issuance; Average balance and transaction limit can further be customized; and others."]
+        },
+
+        {
+            "tag":"salary_info",
+            "input":["What is a salary account?", "Tell me something about salary accounts", "Salary Account"],
+            "responses":["Banks open these accounts at the request of large enterprises and businesses that pay their personnel through the banking system. Each employee is entitled to have a salary account into which their employer deposits their monthly salary.",
+            "A Salary Account is a type of Savings Account, in which the employer of the account holder deposits a fixed amount of money as 'salary' every month",
+            "Salary Account is a benefit-rich payroll account for Employers and Employees. As an organisation, you can opt for Salary Accounts to enable easy disbursements of salaries."
+            ]
+        },
+
+        {
+            "tag":"open_salary",
+            "input":["How do I open a salary account?", "What is the process of opening a salary account?", "Steps to open a salary account"],
+            "responses":["To open a salary account, you just need to approach the bank which has its association with your organisation. After that is done, opening a salary account is similar to opening a savings account, with the only extra requirement being proof of working under your company."]
+        },
+
+        {
+            "tag":"salary_technical",
+            "input":["Tell me more about Salary account", "What are the details of a Salary account", "What are the limit, balance and intrest of a Salary account?"],
+            "responses":["A salary account does not have a limit, and enables 'Zero Balance', which means that employees can withdraw all of the money deposited to the account at any time. However, the employees do not earn intrests on this type of account"]
+        },
+
+        {
+            "tag":"salary_services",
+            "input":["Services with a Salary account", "Salary Account services", "What are the services provided with a salary account?"],
+            "responses":["A salary account provides many different types of services, some even depending upon the actual salary of the account holder. Some of these services are - These accounts can be changed to savings accounts at any time, Insurance, Family banking services, and other card features."]
+        },
+
+        {
+            "tag":"loan_info",
+            "input":["What is a loan?", "what's a Loan", "Tell me about loans"],
+            "responses":["A loan is a sum of money borrowed by an individual or group in exchange for future repayment of the loan value with certain intrest. There are a lot of type of loans, like - Car loan, Home loan, Education loan, Business loan, and others."]
+        },
+
+        {
+            "tag":"loan_eligibility",
+            "input":["Am I eligible for taking a loan?", "Loan eligibility criteria", "Can I get a loan?", "basic eligibility criteria for taking loans"],
+            "responses":["There are several basic criteria that determine the eligibility for taking a loan, some of which include - Credit score of the person, Income, Employment history, Collateral, and the purpose of the loan. The requirements to some loan are specific and need to be fulfilled as such."]
+        },
+
+        {
+            "tag": "personal_loan",
+            "input": ["What is a personal loan?", "How does a personal loan work?"],
+            "responses": ["A personal loan is an unsecured loan that can be used for a variety of purposes, such as home renovation, wedding expenses, or medical bills. It is paid back in fixed installments over a set period of time.", "A personal loan works by providing you with a lump sum of money that you can use for any purpose. You then pay back the loan in fixed installments, typically over a period of 12-60 months."]
+        },
+
+        {
+            "tag":"personal_loan_eligibility",
+            "input":["What are the eligibility criteria for a personal loan?", "Am I eligible for taking a personal loan?"],
+            "responses":["To be eligible for a personal loan, you typically need to have a good credit score, a steady income, and a minimum age requirement."]
+        },
+
+        {
+            "tag": "home_loan",
+            "input": ["What is a home loan?", "How does a home loan work?"],
+            "responses": ["A home loan is a type of loan that is used to purchase or construct a home. It is secured against the property and is paid back in fixed installments over a set period of time.", "A home loan works by providing you with the funds you need to purchase or construct a home. You then pay back the loan in fixed installments, typically over a period of 10-30 years."]
+        },
+
+        {
+            "tag":"home_loan_eligibility",
+            "input":["What are the eligibility criteria for a home loan?", "Am I eligible for taking a home loan?"],
+            "responses":["To be eligible for a home loan, you typically need to have a good credit score, a steady income, and meet certain age and property ownership criteria."]
+        },
+
+        {
+            "tag": "car_loan",
+            "input": ["What is a car loan?", "How does a car loan work?"],
+            "responses": ["A car loan is a type of loan that is used to purchase a vehicle. It is secured against the vehicle and is paid back in fixed installments over a set period of time.", "A car loan is a type of loan that is used to finance the purchase of a vehicle, such as a car or a motorcycle. It is a secured loan, which means that the lender holds the vehicle's title as collateral until the loan is paid off. The borrower typically makes fixed monthly payments, including interest, until the loan is fully repaid."]
+        },
+
+        {
+            "tag":"car_loan_eligibility",
+            "input":["What are the eligibility criteria for a car loan?", "Am I eligible for taking a car loan?"],
+            "responses":["To be eligible for a home loan, you typically need to have a good credit score, a steady income, should be above a certain minimum age (mostly around 21), a down payment of minimum 15% of the on-road price of the vehicle, and the loan amount should not be exceeding a maximum value."]
+        },
+
+        {
+            "tag": "foreign_exchange",
+            "input": ["How can I exchange foreign currency?", "What is the exchange rate for USD to INR?", "Can I exchange money at your bank?"],
+            "responses": ["We offer foreign exchange services to help you convert your currency into INR or vice versa. You can visit one of our branches or use our online banking platform to exchange your currency. The exchange rate may vary depending on the currency and the prevailing market conditions. Would you like to know more about the process of exchanging foreign currency?", "The exchange rate for USD to INR is constantly changing based on the market conditions. You can check the current exchange rate on our website or by visiting one of our branches. Would you like more information on foreign exchange rates?", "Yes, you can exchange money at our bank. We offer foreign exchange services to help you convert your currency into INR or vice versa. Would you like more information on our foreign exchange services?"]
+
+        },
+
+        {
+            "tag": "forex_card",
+            "input": ["What is a forex card?", "How does a forex card work?", "Can I use a forex card for online purchases?"],
+            "responses": ["A forex card is a prepaid card that you can use to make transactions in a foreign currency. It's a convenient and secure way to carry money when you travel abroad. Would you like to know more about our forex card options?", "A forex card works by loading money in a foreign currency onto the card, which can then be used to make transactions when you travel abroad. This eliminates the need to carry cash and offers better exchange rates than exchanging currency at a foreign airport. Would you like more information on how a forex card works?", "Yes, you can use a forex card for online purchases. Our forex cards are widely accepted at merchants around the world. Would you like more information on how to use a forex card for online transactions?"]
+        },
+
+        {
+            "tag": "travel_card",
+            "input": ["What is a travel card?", "How is a travel card different from a forex card?", "What are the benefits of a travel card?"],
+            "responses": ["A travel card is a type of prepaid card that you can use to make transactions when you travel abroad. It's similar to a forex card but may have additional features such as travel insurance and emergency assistance services. Would you like to know more about our travel card options?", "A travel card is similar to a forex card in that it allows you to carry money in a foreign currency when you travel abroad. However, a travel card may offer additional benefits such as travel insurance and emergency assistance services. Would you like more information on the differences between a travel card and a forex card?", "Our travel cards offer a range of benefits, including competitive exchange rates, travel insurance, and emergency assistance services. Would you like more information on the benefits of opening a travel card account?"]
+        },
+
+        {
+            "tag": "exchange_rates",
+            "input": ["What are your foreign exchange rates?", "Can you tell me the current exchange rate?", "How much will I get for my currency?"],
+            "responses": ["Our foreign exchange rates vary depending on the currency and the amount being exchanged. Would you like me to check the current rates for you?", "Our exchange rates are updated regularly to reflect the current market conditions. Which currency are you interested in?", "We offer competitive exchange rates for a range of currencies. Would you like to know more about the specific rates for your currency?"]
+        },
+
+        {
+            "tag": "currency_conversion",
+            "input": ["How do I convert my currency?", "Can I exchange my currency at your bank?", "What do I need to do to convert my currency?"],
+            "responses": ["We offer currency exchange services at our branches and through our online banking platform. Simply bring in your currency and we'll take care of the rest. Would you like to know more about the process?", "Yes, you can exchange your currency at any of our branches. Just bring in your currency and a valid ID. Would you like to know more about the documents required?", "To convert your currency, you'll need to bring in your currency and a valid ID. We'll handle the rest. Would you like to know more about the fees and charges involved?"]
+        },
+
+        {
+            "tag": "foreign_currency_account",
+            "input": ["Do you offer foreign currency accounts?", "Can I open a bank account in a foreign currency?", "What are the benefits of a foreign currency account?"],
+            "responses": ["Yes, we offer foreign currency accounts in a range of currencies. Would you like to know more about the specific options?", "You can open a bank account in a foreign currency, which can be a great option if you frequently travel or do business overseas. Would you like to know more about the benefits and features?", "Our foreign currency accounts offer benefits such as competitive exchange rates, easy access to your funds, and the ability to hold multiple currencies in a single account. Would you like to know more about the specific features?"]
+        },
+
+        {
+            "tag": "upi",
+            "input": ["What is UPI?", "How does UPI work?", "Can you explain UPI to me?"],
+            "responses": ["UPI stands for Unified Payments Interface. It's a real-time payment system that allows you to transfer funds between bank accounts instantly using a mobile device. Would you like to know more about how it works?", "UPI is a secure and convenient way to make payments and transfer funds. It works by linking your bank account to a unique virtual ID, which can be used to send and receive payments. Would you like to know more about the benefits of using UPI?", "With UPI, you can make instant payments and transfer funds 24/7, without the need for bank account details or IFSC codes. Would you like to know more about how UPI can benefit you?"]
+        },
+
+        {
+            "tag": "upi_registration",
+            "input": ["How do I register for UPI?", "What is the process for UPI registration?", "Can you guide me through the UPI registration process?"],
+            "responses": ["To register for UPI, you will need to download a UPI-enabled mobile app from your bank or a third-party provider. Once you have installed the app, you can link your bank account and create a unique virtual ID. Would you like to know more about the specific steps involved in the registration process?", "The UPI registration process is simple and can be completed in a few easy steps. You will need to provide your mobile number, select your bank, and set a UPI PIN. Would you like me to walk you through the process?"]
+        },
+
+        {
+            "tag": "upi_benefits",
+            "input": ["What are the benefits of using UPI?", "Why should I use UPI?", "How can UPI make my life easier?"],
+            "responses": ["UPI offers a range of benefits, including instant fund transfers, no transaction fees, and 24/7 availability. It also allows you to make payments without the need for bank account details or IFSC codes. Would you like to know more about the advantages of using UPI?", "Using UPI can save you time and make your financial transactions more convenient. It's a safe and secure way to transfer funds and make payments, and it's available 24/7. Would you like to know more about how UPI can benefit you?"]
+        },
+
+        {
+            "tag": "upi_safety",
+            "input": ["Is UPI safe?", "How secure is UPI?", "What measures are in place to ensure UPI safety?"],
+            "responses": ["Yes, UPI is a safe and secure mode of payment. We have several measures in place to protect your transactions, including multi-factor authentication and encryption of sensitive information. Would you like to know more about UPI safety features?", "We take UPI safety seriously and have implemented several measures to protect your transactions. These include real-time fraud monitoring and secure authentication processes. Would you like to know more about how we ensure UPI safety?", "We understand that security is important to our customers, which is why we have robust measures in place to protect your UPI transactions. These measures include secure login processes, transaction limits, and 24/7 fraud monitoring. Would you like to know more about how we ensure the safety of your UPI transactions?"]
+        },
+
+        {
+            "tag": "upi_authentication",
+            "input": ["How is UPI authenticated?", "What is the process for UPI authentication?", "Is UPI authentication secure?"],
+            "responses": ["UPI authentication involves multiple layers of security, including a UPI PIN, a device fingerprint, and a transaction password. This ensures that only authorized users can access and use UPI. Would you like to know more about UPI authentication?", "We take UPI authentication seriously and have implemented several measures to ensure its security. These include biometric authentication, device binding, and multi-factor authentication. Would you like to know more about UPI authentication features?", "UPI authentication is designed to be secure and reliable. We use a combination of encryption and multi-factor authentication to ensure that only authorized users can access and use UPI. Would you like to know more about UPI authentication processes?"]
+        },
+
+        {
+            "tag":"open_bank_acc",
+            "input":["How do I open a bank account?", "Steps to open a bank account", "How do I get my own bank account?"],
+            "responses":["To open a account, you'll need to choose a bank suitable to your needs, and then provide the bank with some necessary information, like a government issued ID, address proof, etc.", "For opening a bank account, all you need is a identification proof and a proof of your address. Also, you need to fulfill a minimum age criteria."]
+        },
+
+        {
+            "tag":"locker_info",
+            "input":["What are locker facilities?", "Locker facilities provided by a bank", "Do banks provide locker facilities?"],
+            "responses":["Most bank branches offer the facility of safe deposit lockers to keep valuables such as jewellery or important documents securely. An ideal place to hire a locker would be the nearest bank branch where one has an account. Size of the locker can be chosen according to need and the rent.", "A bank provides locker facilities to its customers. A customer can avail the locker facilities by approaching the nearest branch of the bank where he/she has an account. After getting a locker, a customer can place important things like classified documents, jewellery, and other valuable things in their locker for safekeeping."]
+        },
+
+        {
+            "tag":"locker_eligibility",
+            "input":["Who is eligible to get a locker?", "Am I eligible to get a loan", "What are eligibility criteria to get a locker?"],
+            "responses":["Lockers can be hired by individuals, limited companies, associations and trusts. All you need is an account in the required bank, and some documents required."]
+        },
+
+        {
+            "tag":"locker_storage",
+            "input":["What can be stored in a locker?", "Stuff that can be kept in a locker?", "What items can be kept in a locker?"],
+            "responses":["Property documents, Jewellery, Loan Documents, Birth / Marriage Certificates, Savings Bonds, Insurance Policies, other confidential and private items which need safekeeping can be stored in lockers, while items like Chemicals, weapons, explosives, perishable items, narcotics, and other such dangerous /illegal items are NOT allowed to be stored in Safe Deposit Lockers", "Lockers allow items like important documents, certificates, and other private items. However, items like weapons, chemicals, narcotics, and other illegal things aren't allowed."]
+        },
+
+        {
+            "tag":"locker_prices",
+            "input":["What are the charges of a locker?", "Locker prices", "What are the prices of various lockers?"],
+            "responses":["Locker charges vary with size and region, and depend on the bank's policies. However, they are charged anually and collected in advance. The final costs, however, also include 18% GST. In case of late payments, most banks charge a late penalty of 2.5% per month, which can go upto a maximum of 25%."]
+        },
+
+        {
+            "tag":"locker_nominee",
+            "input":["Do lockers provide nomination facilities?", "What is the procedure to add/modify/cancel a nominee for a locker?"],
+            "responses":["Yes, majority of bank lockers provide nomination facilities, and the process to add or modify a nominee for a locker is quite simple, you just need to fill up some forms as required by your bank, and then your branch will assist you for the same.", "Banks provide its customers with nomination facilities for their locker, and to add/remove one, you need to submit a few documents and then your bank branch will assist you in the process."]
+        },
+
+        {
+            "tag": "account",
+            "input": [
+                "How can I check my account balance?",
+                "What is my account balance?",
+                "Can you give me my account statement?"
+            ],
+            "responses": [
+                "You can check your account balance by logging into your internet banking account or mobile banking app. You can also request for an account statement through these channels.",
+                "You can check your account balance by logging into your internet banking account or mobile banking app. You can also request for an account statement through these channels.",
+                "You can check your account balance by logging into your internet banking account or mobile banking app. You can also request for an account statement through these channels."
+            ]
+        },
+
+        {
+            "tag": "transfer",
+            "input": [
+                "How can I transfer funds?",
+                "What are the ways to transfer money?",
+                "Can you guide me on how to transfer money?"
+            ],
+            "responses": [
+                "You can transfer funds through internet banking, mobile banking, or through a NEFT/RTGS transfer. Would you like me to guide you through the process?",
+                "You can transfer funds through internet banking, mobile banking, or through a NEFT/RTGS transfer. Would you like me to guide you through the process?",
+                "You can transfer funds through internet banking, mobile banking, or through a NEFT/RTGS transfer. Would you like me to guide you through the process?"
+            ]
+        },
+
+        {
+            "tag": "card",
+            "input": [
+                "What are the types of credit cards available?",
+                "How can I apply for a credit card?",
+                "What are the benefits of having a credit card?"
+            ],
+            "responses": [
+                "We offer a range of credit cards to suit your needs. You can apply for a credit card through our website or by visiting any of our branches. Some of the benefits of having a credit card include cashback offers, reward points, and discounts on various purchases.",
+                "We offer a range of credit cards to suit your needs. You can apply for a credit card through our website or by visiting any of our branches. Some of the benefits of having a credit card include cashback offers, reward points, and discounts on various purchases.",
+                "We offer a range of credit cards to suit your needs. You can apply for a credit card through our website or by visiting any of our branches. Some of the benefits of having a credit card include cashback offers, reward points, and discounts on various purchases."
+            ]
+        },
+
+        {
+            "tag": "complaint",
+            "input": [
+              "I want to file a complaint",
+              "I have a complaint",
+              "I need to report a problem",
+              "I want to raise an issue"
+            ],
+            "responses": [
+              "I'm sorry to hear that. Please tell me more about your complaint so that I can assist you better.",
+              "I apologize for the inconvenience. Please share your complaint so that I can assist you with resolving the issue.",
+              "I understand. Can you please provide more details about the problem you are facing so that I can assist you?"
+            ]
+          },
+          {
+            "tag": "complaint_type",
+            "input": [
+              "My account has been debited but the transaction failed",
+              "I have not received my money after ATM withdrawal",
+              "I have been charged an incorrect amount",
+              "I did not receive my credit card statement",
+              "I have been charged a penalty without any reason",
+              "I did not receive my e-statement",
+              "I have not received my refund",
+              "My debit card has been lost/stolen"
+            ],
+            "responses": [
+              "I'm sorry for the inconvenience caused. Please share your account details and transaction reference number so that I can look into the matter.",
+              "I apologize for the inconvenience caused. Please provide the ATM transaction details so that I can assist you with resolving the issue.",
+              "I understand. Please share the details of the incorrect charge so that I can assist you with resolving the issue.",
+              "I apologize for the inconvenience caused. Please provide your credit card details so that I can assist you with resolving the issue.",
+              "I'm sorry for the inconvenience caused. Please share the details of the penalty charged so that I can assist you with resolving the issue.",
+              "I apologize for the inconvenience caused. Please provide your registered email ID so that I can assist you with resolving the issue.",
+              "I understand. Please share the details of the refund so that I can assist you with resolving the issue.",
+              "I'm sorry to hear that. Please share your account details so that I can block the lost/stolen card and assist you with getting a new one."
+            ]
+        },
+
+        {
+            "tag": "thanks",
+            "input": [
+              "Thank you",
+              "Thanks",
+              "Appreciate it",
+              "Thanks a lot",
+              "Thank you so much"
+            ],
+            "responses": [
+              "You're welcome! Is there anything else I can assist you with?",
+              "Glad I could assist you! Do you have any other queries?",
+              "Anytime! Please feel free to reach out to me if you need any further assistance.",
+              "You're welcome! Have a great day ahead!",
+              "My pleasure! Is there anything else I can assist you with?"
+            ]
+        },
+
+        {
+            "tag": "Transfer",
+            "input": [
+              "I want to transfer money from my account",
+              "Can you help me transfer money to another account?",
+              "What's the process for account transfer?",
+              "How can I transfer funds from my account to another account?"
+            ],
+            "responses": [
+              "Sure, we can help you transfer money from your account to another account.",
+              "To transfer funds from your account to another account, you can use our online banking portal or mobile app.",
+              "You can also visit any of our branches and fill out a transfer form to initiate the transfer process.",
+              "Before initiating a transfer, please make sure you have the account number and IFSC code of the recipient's bank account."
+            ]
+        },
+
+        {
+            "tag": "Edit Personal Details",
+            "input": [
+              "How can I update my personal details?",
+              "Can I change my address or phone number associated with my account?",
+              "What's the process for editing personal details?",
+              "I need to update my personal information. What should I do?"
+            ],
+            "responses": [
+              "To update your personal details, you can log in to your online banking portal or mobile app and make the necessary changes.",
+              "You can also visit any of our branches and fill out a request form for updating your personal details.",
+              "Please make sure to carry a valid ID proof along with you when you visit the branch for updating your personal details.",
+              "If you face any issues updating your personal details, you can reach out to our customer support team for assistance."
+            ]
+        }
+    ]
+}
